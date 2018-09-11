@@ -1,5 +1,9 @@
 # Fast-Food-Fast
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> 933d520f6ae698c72ff69bcde91add85264fed41
 ### Project Overview
 Fast-Food-Fast is a food delivery service app for a restaurant.
 
