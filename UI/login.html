@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Fast Food Fast - Login</title>
+
+		<link rel="stylesheet" href="css/main.css">
+
+		<script type="text/javascript">
+			function adminLogin () {
+				window.location = 'admin/index.html';
+
+				return false
+			}
+
+			function userLogin () {
+				window.location = 'user/index.html';
+
+				return false
+			}
+		</script>
+	</head>
+	<body>
+		<div class="login-main">
+			<h3><center>Please login to gain access</center></h3>
+
+			<form action="" method="post">
+				<input type="text" name="username" required placeholder="Username">
+
+				<input type="password" name="password" required placeholder="Password">
+
+				<button type="button"  name="login" onclick="adminLogin()">Login as admin</button>
+				<button type="button" name="login" onclick="userLogin()">Login as user</button>
+
+				<div class="bottom-line"></div>
+
+				<span>Don't have an account yet? <a href="signup.html">Signup</a> or <a href="index.html">Go back</a></a></span>
+			</form>
+		</div>
+	</body>
+</html> 
