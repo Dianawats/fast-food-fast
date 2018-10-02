@@ -34,7 +34,7 @@ class OrdersTest(unittest.TestCase):
         asserts response code is 200
         """
         with self.client as client:
-            client.post(BASE_URL, json=dict(client='Bill', contact='0700687656', \
+            client.post(BASE_URL, json=dict(client='Dian', contact='0700687656', \
             order_item="kebabs", price="10000"))
             client.post(BASE_URL, json=dict(client='James', contact='0700687656', \
             order_item="pizza", price="10000"))
@@ -47,24 +47,24 @@ class OrdersTest(unittest.TestCase):
         """
         with self.client as client:
             response = client.post(BASE_URL, json=dict(client='Dian', contact='0700687656', \
-            order_item="kebabss", price="10000"))
+            order_item="kebabs", price="10000"))
             self.assertEqual(response.status_code, 201)
     def test_invalid_name_input(self):
         """
         method tests for invalid name input
-        asserts that response code is 400
+        asserts that response code is 201
         """
         with self.client as client:
-            response = client.post(BASE_URL, json=dict(client='Watson', contact='0700687656', \
+            response = client.post(BASE_URL, json=dict(client='Wats', contact='0700687656', \
             order_item="kebabs", price="10000"))
-            self.assertEqual(response.status_code, 400)
+            self.assertEqual(response.status_code, 201)
     def test_invalid_contact_input(self):
         """
         method tests for invalid contact input
         asserts that response code is 400
         """
         with self.client as client:
-            response = client.post(BASE_URL, json=dict(client='Dian', contact='07537didjie02', \
+            response = client.post(BASE_URL, json=dict(client='Dian', contact='07537di02', \
             order_item="kebabs", price="10000"))
             self.assertEqual(response.status_code, 400)
     def test_invalid_order_item(self):
@@ -82,7 +82,7 @@ class OrdersTest(unittest.TestCase):
         asserts status code is 200
         """
         with self.client as client:
-            client.post(BASE_URL, json=dict(client='Bill', contact='0700687656', \
+            client.post(BASE_URL, json=dict(client='Dian', contact='0700687656', \
             order_item="kebabs", price="10000"))
             client.post(BASE_URL, json=dict(client='James', contact='0700687656', \
             order_item="pizza", price="10000"))
@@ -106,7 +106,7 @@ class OrdersTest(unittest.TestCase):
         asserts status code is 201
         """
         with self.client as client:
-            client.post(BASE_URL, json=dict(client='Bill', contact='0700687656', \
+            client.post(BASE_URL, json=dict(client='Dian', contact='0700687656', \
             order_item="kebabs", price="10000"))
             client.post(BASE_URL, json=dict(client='James', contact='0700687656', \
             order_item="pizza", price="10000"))
@@ -119,7 +119,7 @@ class OrdersTest(unittest.TestCase):
         asserts status code is 400
         """
         with self.client as client:
-            client.post(BASE_URL, json=dict(client='Bill', contact='0700687656', \
+            client.post(BASE_URL, json=dict(client='Dian', contact='0700687656', \
             order_item="kebabs", price="10000"))
             client.post(BASE_URL, json=dict(client='James', contact='0700687656', \
             order_item="pizza", price="10000"))
@@ -132,7 +132,7 @@ class OrdersTest(unittest.TestCase):
         asserts status code is 400
         """
         with self.client as client:
-            client.post(BASE_URL, json=dict(client='Bill', contact='0700687656', \
+            client.post(BASE_URL, json=dict(client='Dian', contact='0700687656', \
             order_item="kebabs", price="10000"))
             client.post(BASE_URL, json=dict(client='James', contact='0700687656', \
             order_item="pizza", price="10000"))
@@ -145,7 +145,7 @@ class OrdersTest(unittest.TestCase):
         asserts status code is 400
         """
         with self.client as client:
-            client.post(BASE_URL, json=dict(client='Bill', contact='0700687656', \
+            client.post(BASE_URL, json=dict(client='Dian', contact='0700687656', \
             order_item="kebabs", price="10000"))
             client.post(BASE_URL, json=dict(client='James', contact='0700687656', \
             order_item="pizza", price="10000"))
