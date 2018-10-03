@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/Dianawats/fast-food-fast.svg?branch=api)](https://travis-ci.org/Dianawats/fast-food-fast)
+
 # Fast-Food-Fast
 
 
