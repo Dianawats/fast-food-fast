@@ -33,7 +33,8 @@ You will need the following:
 ## Project links:
 **User Interface:** 
 The user interface pages for this project are hosted this url: (git clone https://github.com/Dianawats/fast-food-fast.git`)
-The code for the UI templates can be accessed using the URL: (https://github.com/billkabanga/Fast-food-fast/tree/UI-feature)
+The code for the UI templates can be accessed using the URL: 
+(https://github.com/Dianawats/fast-food-fast.git`)
 
 **API endpoints:** The code for the endpoints can be found using the URL: (https://github.com/Dianawats/fast-food-fast/tree/api)
 
