@@ -1,5 +1,6 @@
 [![Build Status](https://travis-ci.org/Dianawats/fast-food-fast.svg?branch=api)](https://travis-ci.org/Dianawats/fast-food-fast)
 [![Coverage Status](https://coveralls.io/repos/github/Dianawats/fast-food-fast/badge.svg?branch=api)](https://coveralls.io/github/Dianawats/fast-food-fast?branch=api)
+<a href="https://codeclimate.com/github/Dianawats/fast-food-fast/maintainability"><img src="https://api.codeclimate.com/v1/badges/7dc721b4af568770d736/maintainability" /></a>
 
 # Fast-Food-Fast
 
