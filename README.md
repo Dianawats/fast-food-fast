@@ -1,4 +1,5 @@
 [![Build Status](https://travis-ci.org/Dianawats/fast-food-fast.svg?branch=api)](https://travis-ci.org/Dianawats/fast-food-fast)
+[![Coverage Status](https://coveralls.io/repos/github/Dianawats/fast-food-fast/badge.svg?branch=api)](https://coveralls.io/github/Dianawats/fast-food-fast?branch=api)
 
 # Fast-Food-Fast
 
