@@ -88,7 +88,7 @@ dianakiznaki@gmail.com
 
 ## Authors
 
-* **Diana Nakiwala**
+* **Diana Watson**
 
 
 
